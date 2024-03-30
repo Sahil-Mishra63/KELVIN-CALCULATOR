@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KELVIN CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="temperature.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <p>KELVIN : <input type="text" id="kelvin" placeholder="Enter the kelvin temperature..."></p>
+
+        <div class="operations">
+            <button onclick="celsius()" id="celsius">CELSIUS</button>
+            <button onclick="fahrenheit()" id="fahrenheit">FAHRENHEIT</button>
+            <button onclick="newton()" id="newton">NEWTON</button>
+        </div>
+
+        <div class="ans">
+            <p id="cel"></p>
+            <p id="far"></p>
+            <p id="new"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
